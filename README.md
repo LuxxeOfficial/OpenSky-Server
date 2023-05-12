@@ -2,7 +2,7 @@
 Server backend for OpenSky - a ROBLOX live text chat translator.
 
 # How to use?
-You can just pate the link to the public git repo on render.com, or self-host on a VPS if you're super cool. PLEASE note that you should change "use_json" to False if you don't want to use disk space. This will result in a higher translation delay, but will not use any disk space on your host. translations.json is a copy of every translation your users have made, to limit the number of requests sent.
+You can just pate the link to the public git repo on render.com, or self-host on a VPS if you're super cool. PLEASE note that you should change "use_json" to True for bigger games. This limits requests as much as possible and prevents the likelihood of being IP-banned from libretranslate. More about that in the below section.
 
 # Disclaimer
 Please buy a license from https://libretranslate.com/ if you're running this in production. Or, you could go about self-hosting LibreTranslate. Irresponsible usage may result in all roblox IP's being blacklisted from LibreTranslate if you don't have a license and you're spamming requests out of them
