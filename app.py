@@ -17,7 +17,7 @@ def translate():
     try:
         data = request.get_json()
         target_lang = data['target_lang']
-        from_lang = data['from_lang']
+        # from_lang = data['from_lang']
         text = data['text']
         # Sanitize inputs
         target_lang = re.sub(regex, '', target_lang)
@@ -33,7 +33,7 @@ def translate():
             if key in translations:
                 return jsonify({'translation': translations[key]})
         # If translation not in file or JSON not used, request and store it
-        translator = Translator(from_lang=from_lang)
+        translator = Translator(to_lang=target_lang)
         translation = translator.translate(text)
         if use_json:
             translations[key] = translation
