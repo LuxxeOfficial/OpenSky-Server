@@ -15,5 +15,5 @@ pipreqs==0.4.13
 requests==2.30.0
 translate==3.6.1
 urllib3==2.0.2
-Werkzeug==2.3.4
+Werkzeug
 yarg==0.1.9
