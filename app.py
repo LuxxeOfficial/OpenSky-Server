@@ -17,7 +17,7 @@ def translate():
     try:
         data = request.get_json()
         target_lang = data['target_lang']
-        # from_lang = data['from_lang']
+        from_lang = data['from_lang']
         text = data['text']
         # Sanitize inputs
         target_lang = re.sub(regex, '', target_lang)
