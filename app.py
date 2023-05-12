@@ -33,7 +33,7 @@ def translate():
             if key in translations:
                 return jsonify({'translation': translations[key]})
         # If translation not in file or JSON not used, request and store it
-        translator = Translator(to_lang=target_lang)
+        translator = Translator(to_lang=target_lang, from_lang=from_lang)
         translation = translator.translate(text)
         if use_json:
             translations[key] = translation
