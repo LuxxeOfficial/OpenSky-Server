@@ -6,10 +6,13 @@ You can just pate the link to the public git repo on render.com, or self-host on
 
 # Render.com guide
 First, ensure that you set it to a python project.
+
 ![image](https://github.com/LuxxeOfficial/OpenSky-Server/assets/85503367/dd8c03f8-80a0-4ee8-9d37-02270e42878a)
+
 As shown above, set your build command to this.
 
 ![image](https://github.com/LuxxeOfficial/OpenSky-Server/assets/85503367/0729c8b6-15f5-44a1-b3ab-e25323fad629)
+
 Then, use this as the start command
 
 # Disclaimer
