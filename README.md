@@ -4,6 +4,14 @@ Server backend for OpenSky - a ROBLOX live text chat translator.
 # How to use?
 You can just pate the link to the public git repo on render.com, or self-host on a VPS if you're super cool. PLEASE note that you should change "use_json" to True for bigger games. This limits requests as much as possible and prevents the likelihood of being IP-banned from libretranslate. More about that in the below section.
 
+# Render.com guide
+First, ensure that you set it to a python project.
+![image](https://github.com/LuxxeOfficial/OpenSky-Server/assets/85503367/dd8c03f8-80a0-4ee8-9d37-02270e42878a)
+As shown above, set your build command to this.
+
+![image](https://github.com/LuxxeOfficial/OpenSky-Server/assets/85503367/0729c8b6-15f5-44a1-b3ab-e25323fad629)
+Then, use this as the start command
+
 # Disclaimer
 Please buy a license from https://libretranslate.com/ if you're running this in production. Or, you could go about self-hosting LibreTranslate. Irresponsible usage may result in all roblox IP's being blacklisted from LibreTranslate if you don't have a license and you're spamming requests out of them
 
